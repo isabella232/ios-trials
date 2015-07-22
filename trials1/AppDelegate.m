@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NSBundle+Remote.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // Configure the bundle URL
+    NSURL *remoteBundleURL = [NSURL URLWithString:@"http://localhost:8000/bundle.zip"];
+    // Load the bundle
+    NSBundle *remoteBundle = [[NSBundle alloc] initWithRemoteURL:remoteBundleURL];
+    // Set is as the remote bundle
+    [NSBundle setMainRemoteBundle:remoteBundle];
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+
+    UIViewController * vc = [[ViewController alloc] init];
+    
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];    
+    
     // Override point for customization after application launch.
     return YES;
 }

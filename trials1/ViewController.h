@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView1;
+
+- (IBAction)doit:(id)sender;
 
 @end
 

@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GroundControl (2.1.0):
+    - AFNetworking (~> 2.2)
+  - NMRemoteBundle (1.0.0):
+    - SSZipArchive
+  - SSZipArchive (0.3.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GroundControl
+  - NMRemoteBundle (from `https://github.com/sirnicolaz/NMRemoteBundle.git`)
+
+EXTERNAL SOURCES:
+  NMRemoteBundle:
+    :git: https://github.com/sirnicolaz/NMRemoteBundle.git
+
+CHECKOUT OPTIONS:
+  NMRemoteBundle:
+    :commit: 169ccfae814c7de1a63d2068016ced36fb478b76
+    :git: https://github.com/sirnicolaz/NMRemoteBundle.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  GroundControl: fbc762e0097feece7fb6d8cdc8f2747a504a6833
+  NMRemoteBundle: 68548e1dd60c2fce5b4101b95e477cbccef8b38d
+  SSZipArchive: 11801759495fa4efb7512ef652eb0042d68305d7
+
+COCOAPODS: 0.38.0

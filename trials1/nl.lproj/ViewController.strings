@@ -1,0 +1,9 @@
+
+/* Class = "UISegmentedControl"; ZB2-Zs-7i0.segmentTitles[0] = "First"; ObjectID = "ZB2-Zs-7i0"; */
+"ZB2-Zs-7i0.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; ZB2-Zs-7i0.segmentTitles[1] = "Second"; ObjectID = "ZB2-Zs-7i0"; */
+"ZB2-Zs-7i0.segmentTitles[1]" = "Second";
+
+/* Class = "UIButton"; normalTitle = "Knopje"; ObjectID = "mhS-2l-qF1"; */
+"mhS-2l-qF1.normalTitle" = "Knopje";
